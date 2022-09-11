@@ -44,7 +44,8 @@ public class SecondFragment extends Fragment {
                 "Dividir",
         };
 
-          ArrayAdapter <String> adapter = new ArrayAdapter<>(this.getContext(),R.layout.spinner_item_1,operations);
+          ArrayAdapter <String> adapter = new ArrayAdapter<>(this.getContext(),
+                  R.layout.spinner_item_1,operations);
 
           sp_operations.setAdapter(adapter);
 
@@ -132,7 +133,8 @@ public class SecondFragment extends Fragment {
             res = String.valueOf(sum);
             txt_resp2.setText(res);
         } else {
-            Toast.makeText(this.getContext(), "No se puede dividir por 0", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this.getContext(), "No se puede dividir por 0",
+                    Toast.LENGTH_SHORT).show();
         }
         return res;
     }
