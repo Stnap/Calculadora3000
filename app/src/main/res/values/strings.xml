@@ -27,4 +27,9 @@
     <string name="substract">Restar</string>
     <string name="divide">Dividir</string>
     <string name="multiply">Multiplicar</string>
+    <string name="boxSum">Suma</string>
+    <string name="boxRes">Resta</string>
+    <string name="boxDiv">Divide</string>
+    <string name="boxMul">Multiplica</string>
+    <string name="response">Respuesta</string>
 </resources>
